@@ -8,3 +8,27 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
 }
+
+.content{
+    padding: 1rem;
+} 
+.content h1{
+    margin: 0; 
+}
+
+ol.pokemons{ /* ordered list */
+    display: grid; /* grid layout */
+    grid-template-columns: 1fr 1fr;/* 2 columns */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.pokemons li{
+    margin: .5rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background-color: #14a06f;
+    color: #fff;
+    height: 100px;
+}
