@@ -25,10 +25,18 @@ ol.pokemons{ /* ordered list */
 }
 
 ol.pokemons li{
+    display: flex;
+    flex-direction: column;
     margin: .5rem;
-    padding: 2rem 1rem;
+    padding: 1rem;
     border-radius: 1rem;
     background-color: #14a06f;
-    color: #fff;
-    height: 100px;
+    color: #fff;    
+}
+
+ol.pokemons li img{
+    align-self: flex-end;
+    max-width: 60%;
+    height: auto;
+    border-radius: 1rem;
 }
