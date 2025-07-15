@@ -1,0 +1,222 @@
+/* ==============================================
+   INSTADIO - CLONE DO INSTAGRAM PARA DIO
+   ==============================================
+   
+   Projeto: Clone da interface de login do Instagram
+   Autor: Digital Innovation One
+   Versão: 1.0.0
+   Data: 2025-07-15
+   
+   Estrutura:
+   1. Reset e configurações globais
+   2. Layout principal (container)
+   3. Seção do smartphone
+   4. Seção de login/formulário
+   5. Componentes específicos
+   6. Responsividade
+   ============================================== */
+
+/* 1. RESET E CONFIGURAÇÕES GLOBAIS
+   ============================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  max-height: 100vh;
+  background-color: #f3f3f3;
+
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  width: 60%;
+  height: 100vh;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.phone img {
+  height: 50rem;
+}
+
+.continue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 0.071rem solid #d3d3d3;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.logo {
+  height: 3rem;
+  background-color: #ffc107;
+}
+
+/* Foto de perfil */
+.profile-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 6rem;
+}
+
+.login {
+  background-color: #0095f6;
+  color: #fff;
+
+  padding: 0.571rem;
+  border-radius: 0.286rem;
+}
+
+.logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: #a0a0a0;
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.get-app {
+  font-size: 1.286rem;
+  font-weight: bold;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  padding: 1rem 0;
+}
+
+/* Botões de download com background image */
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url("./img/apple-button.png");
+}
+
+.app-download:nth-child(2) {
+  background-image: url("./img/googleplay-button.png");
+}
+
+/* 2. LAYOUT PRINCIPAL - CONTAINER
+   ============================================== */
+
+/* responsividade */
+/* 73.143rem */
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+/* 46.429rem */
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 0.071rem solid transparent;
+  }
+}
+
+/* 3. SEÇÃO DO SMARTPHONE
+   ============================================== */
+
+/* 4. SEÇÃO DE LOGIN/FORMULÁRIO
+   ============================================== */
+
+/* 5. COMPONENTES ESPECÍFICOS
+   ============================================== */
+
+/* Logo da DIO */
+
+/* Botões de ação */
+
+/* Textos e links */
+
+/* Seção de download do app */
+
+/* 6. RESPONSIVIDADE
+   ============================================== */
+
+/* Tablet - até 1024px */
+
+/* Mobile - até 650px */
